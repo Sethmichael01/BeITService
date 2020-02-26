@@ -12,6 +12,10 @@ namespace BeItService.Controllers
         {
             return View();
         }
+        public IActionResult Services()
+        {
+            return View();
+        }
         public IActionResult About()
         {
             return View();

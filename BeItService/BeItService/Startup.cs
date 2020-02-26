@@ -62,7 +62,7 @@ namespace BeItService
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=BeIt}/{action=Home}/{id?}");
+                    pattern: "{controller=BeIt}/{action=Services}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

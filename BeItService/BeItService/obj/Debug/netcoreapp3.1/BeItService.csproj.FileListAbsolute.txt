@@ -137,3 +137,4 @@ C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3
 C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\BeItService.pdb
 C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\About.cshtml.g.cs
 C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\Home.cshtml.g.cs
+C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\Services.cshtml.g.cs
