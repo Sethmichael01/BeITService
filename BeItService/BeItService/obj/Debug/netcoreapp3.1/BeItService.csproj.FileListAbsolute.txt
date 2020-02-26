@@ -139,3 +139,4 @@ C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3
 C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\Home.cshtml.g.cs
 C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\Services.cshtml.g.cs
 C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\Pricing.cshtml.g.cs
+C:\Users\sethm\Desktop\BeItService\BeItService\BeItService\obj\Debug\netcoreapp3.1\Razor\Views\BeIT\Contact.cshtml.g.cs
