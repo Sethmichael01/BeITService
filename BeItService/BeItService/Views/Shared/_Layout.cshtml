@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BeItService</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/BeItWebApp/player.vimeo.com/api/player.js"></script>
+    <script src="~/BeItWebApp/www.google-analytics.com/analytics.js"></script>
+    <script src="~/BeItWebApp/themes.muffingroup.com/be/itservice3/wp-content/cache/minify/1fbdc.js"></script>
+    <script src="~/BeItWebApp/themes.muffingroup.com/be/itservice3/wp-content/cache/minify/4c6a5.js"></script>
+    <link href="~/BeItWebApp/themes.muffingroup.com/be/itservice3/wp-content/cache/minify/eb214.css" rel="stylesheet" />
+    <link href="~/BeItWebApp/themes.muffingroup.com/be/itservice3/wp-content/cache/minify/78f48.css" rel="stylesheet" />
+    <script src="~/BeItWebApp/themes.muffingroup.com/be/itservice3/wp-content/cache/minify/8192a.js"></script>
+    <link href="~/BeItWebApp/themes.muffingroup.com/be/itservice3/wp-content/cache/minify/0b648.css" rel="stylesheet" />
+    <script src="~/BeItWebApp/themes.muffingroup.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BeItService</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact Us</a>
+                        </li>
+                        <li class="nav-item top_bar_right">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Buy Now <i class="icon icon-right-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer id=Footer class=clearfix>
+        <div class=widgets_wrapper>
+            <div class=container>
+                <div class="column one-third"><aside id=custom_html-2 class="widget_text widget widget_custom_html"><h4>Our address</h4><div class="textwidget custom-html-widget"><p> Level 13, 2 Elizabeth St,<br> Melbourne, Victoria 3000,<br> Australia</p></div></aside></div><div class="column one-third"><aside id=custom_html-3 class="widget_text widget widget_custom_html"><h4>Opening hours</h4><div class="textwidget custom-html-widget"><p>Monday - Friday<br> 09:00 AM - 06:00 PM</p><p>Saturday<br> 10:00 AM - 05:00 PM</p></div></aside></div><div class="column one-third">
+                    <aside id=custom_html-4 class="widget_text widget widget_custom_html">
+                        <div class="textwidget custom-html-widget">
+                            <h5><i class=icon-mobile style=color:#00a34f></i> +61 (0) 383 766 284</h5><h5>
+                                <i class=icon-mail style=color:#00a34f></i>
+                                <a href="https://themes.muffingroup.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="442a2b362134283d04212a3225302b6a272b29">[email&#160;protected]</a>
+                            </h5><p>If you have any question, feel free to call us</p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div><div class=footer_copy><div class=container><div class="column one"><a id=back_to_top class="button button_js" href><i class=icon-up-open-big></i></a><div class=copyright> &copy; 2020 BeITService 3 - BeTheme. All Rights Reserved. <a target=_blank rel=nofollow href=https://muffingroup.com />Muffin group</a></div><ul class=social><li class=facebook><a href=# title=Facebook><i class=icon-facebook></i></a></li><li class=twitter><a href=# title=Twitter><i class=icon-twitter></i></a></li></ul></div></div></div>
+    </footer>
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - BeItService - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
