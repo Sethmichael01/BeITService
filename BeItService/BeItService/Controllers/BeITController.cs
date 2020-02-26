@@ -8,6 +8,10 @@ namespace BeItService.Controllers
 {
     public class BeITController : Controller
     {
+        public IActionResult Home()
+        {
+            return View();
+        }
         public IActionResult About()
         {
             return View();
